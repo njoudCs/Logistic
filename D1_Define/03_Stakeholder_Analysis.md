@@ -1,14 +1,18 @@
-# Stakeholder Analysis Matrix
+# 👥 Stakeholder Analysis & Engagement Matrix
 
-| Stakeholder | Power | Interest | Strategy | Risks |
+This project involves cross-functional collaboration. Below is the power/interest breakdown:
+
+| Stakeholder Group | Impact on Project | Power | Interest | Engagement Strategy |
 | :--- | :--- | :--- | :--- | :--- |
-| Delivery Drivers | Low | High | Keep Informed & Motivate | Resistance to change / Fatigue |
-| End Customer | Low | High | Keep Satisfied | Loss of trust / Churn |
-| Operations Dept. | High | High | Manage Closely | Process disruption |
-| Planning Dept. | High | High | Collaborate | Inaccurate forecasting |
-| Commercial Partner| High | Medium| Keep Satisfied | Loss of partnership |
+| **Executive Sponsors** | High | High | High | Monthly Steering Committee Meetings |
+| **Delivery Drivers** | Critical | Low | High | Weekly "Toolbox" talks & Incentive schemes |
+| **Warehouse Staff** | High | Medium| High | Process Workshops & Hand-off training |
+| **Tech/IT Team** | Medium | High | Medium | Sprint planning for API integrations |
+| **Final Customers** | High | Low | High | Post-delivery satisfaction surveys (VOC) |
+| **Third-party Suppliers**| Low | Low | Medium | Standard Performance Reviews |
 
-### Engagement Strategy
-*   **Drivers:** Daily briefings and performance incentives.
-*   **Operations:** Weekly DMAIC progress reviews.
-*   **Commercial Partner:** Monthly performance reports.
+### Stakeholder Risks & Mitigation
+* **Driver Resistance:** Fear of "micro-management" via GPS. 
+    * *Mitigation:* Emphasize safety and fuel efficiency benefits, not just monitoring.
+* **IT Bottlenecks:** Delays in updating the address validation tool.
+    * *Mitigation:* Define clear technical requirements in the Define phase.
