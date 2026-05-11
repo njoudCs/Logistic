@@ -1,29 +1,23 @@
-# Project Charter: Green Box Logistics Efficiency
+# 📋 Project Charter: Green Box Logistics Optimization
 
-## 1. Problem Statement
-Current logistics data indicates a **30% delay rate** in order deliveries. The root cause begins with late shipment departures from the warehouse, compounded by inaccurate delivery addresses. This has resulted in a significant decline in customer satisfaction and loss of repeat business.
+## 1. Executive Summary
+The **Green Box Project** aims to overhaul the delivery fulfillment process. With a current **45% delay rate**, the project utilizes the DMAIC methodology to bridge the gap between warehouse efficiency and last-mile delivery excellence.
 
-## 2. Business Case
-*   **Financial Impact:** 35% increase in operational costs due to driver overtime pay.
-*   **Operational Impact:** Reduced fleet efficiency, driver burnout, and non-compliance with labor safety regulations (rest periods).
-*   **Strategic Impact:** Loss of market share to competitors with higher reliability.
+## 2. Problem Statement
+Analysis of Q1 delivery logs shows that **nearly half (45%) of orders** fail to meet the 24-hour Delivery SLA. The primary breakdown occurs at the **Warehouse-to-Driver handoff**, caused by data silos and manual routing, leading to an estimated **SR 250,000 monthly loss** in operational waste and customer churn.
 
-## 3. Goal Statement (SMART)
-Reduce the percentage of delayed orders from **30% to 5%** within **3 months** by optimizing warehouse dispatching and improving address accuracy.
+## 3. SMART Goals
+* **Primary Objective:** Reduce late deliveries from **45% to 20%** by September 2026.
+* **Secondary Objective:** Improve address verification accuracy to **95%** to reduce "Driver Re-routing" time.
 
-## 4. Project Scope
-| **In-Scope** | **Out-of-Scope** |
-| :--- | :--- |
-| Warehouse dispatch processes | Manufacturing quality |
-| Driver route optimization | International shipping |
-| Last-mile delivery (Local) | IT Infrastructure upgrades |
-| Address validation systems | New vehicle procurement |
-
-## 5. Project Team
+## 4. Project Team & Roles
 | Name | Role | Responsibility |
 | :--- | :--- | :--- |
-| Najoud Al-Najem | Operations Manager | Operational execution |
-| Najd Al-Hidan | CEO | Project Sponsor |
-| Muna Al-Dossary | Planning Manager | Tactical planning |
-| Dalya Al-Harbi | Supplies Supplier | Material procurement |
-| Reevan Al-Dossary | Commercial Partner | Stakeholder management |
+| **Njoud Al-Najem** | Project Leader (Green Belt) | DMAIC execution & Data Analysis |
+| **Operations Lead** | Process Owner | Implementing warehouse changes |
+| **Tech Support** | Solutions Architect | Address validation API integration |
+| **Fleet Manager** | Logistics Coordinator | Driver training & Route compliance |
+
+## 5. Constraints & Assumptions
+* **Constraint:** No additional vehicles will be purchased during this phase.
+* **Assumption:** Historical delivery data for the last 6 months is accessible and accurate.
