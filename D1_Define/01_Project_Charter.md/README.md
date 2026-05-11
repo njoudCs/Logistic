@@ -1,23 +1,73 @@
-# 📋 Project Charter: Green Box Logistics Optimization
+# 📁 01 — Project Charter: Green Box Logistics
+## مرحلة التعريف | Define Phase
 
-## 1. Executive Summary
-The **Green Box Project** aims to overhaul the delivery fulfillment process. With a current **45% delay rate**, the project utilizes the DMAIC methodology to bridge the gap between warehouse efficiency and last-mile delivery excellence.
+> وثيقة المشروع (Project Charter) هي **التفويض الرسمي** لبدء عملية التحسين. في مشروع **Green Box**، تعمل هذه الوثيقة كعقد يحدد المشكلة اللوجستية، النطاق، والأهداف المرجوة، لضمان توافق جميع أصحاب المصلحة قبل البدء بجمع وتحليل البيانات.
 
-## 2. Problem Statement
-Analysis of Q1 delivery logs shows that **nearly half (45%) of orders** fail to meet the 24-hour Delivery SLA. The primary breakdown occurs at the **Warehouse-to-Driver handoff**, caused by data silos and manual routing, leading to an estimated **SR 250,000 monthly loss** in operational waste and customer churn.
+---
 
-## 3. SMART Goals
-* **Primary Objective:** Reduce late deliveries from **45% to 20%** by September 2026.
-* **Secondary Objective:** Improve address verification accuracy to **95%** to reduce "Driver Re-routing" time.
+## 📂 الملفات في هذا المجلد
 
-## 4. Project Team & Roles
-| Name | Role | Responsibility |
-| :--- | :--- | :--- |
-| **Njoud Al-Najem** | Project Leader (Green Belt) | DMAIC execution & Data Analysis |
-| **Operations Lead** | Process Owner | Implementing warehouse changes |
-| **Tech Support** | Solutions Architect | Address validation API integration |
-| **Fleet Manager** | Logistics Coordinator | Driver training & Route compliance |
+| الملف | الوصف |
+|-------|-------|
+| [📜 Project_Charter.md](./Project_Charter.md) | الوثيقة الرسمية للمشروع وتشمل بيان المشكلة والهدف الذكي. |
+| [👥 Stakeholder_Analysis.md](./Stakeholder_Analysis.md) | تحليل موسع لجميع الأطراف المعنية (إدارة، سائقين، عملاء). |
+| [🔄 SIPOC_Analysis.md](./SIPOC_Analysis.md) | خريطة تدفق العملية من الموردين وحتى العميل النهائي. |
+| [🎯 VOC_CTQ_Analysis.md](./VOC_CTQ_Analysis.md) | تحويل متطلبات العملاء إلى مقاييس جودة تقنية قابلة للقياس. |
 
-## 5. Constraints & Assumptions
-* **Constraint:** No additional vehicles will be purchased during this phase.
-* **Assumption:** Historical delivery data for the last 6 months is accessible and accurate.
+---
+
+## 🧐 ما هي وثيقة مشروع Green Box؟
+
+هي مستند مركزي يجيب على الأسئلة الجوهرية للمشروع:
+- **حالة العمل (Business Case):** لماذا نستثمر في هذا المشروع الآن؟
+- **بيان المشكلة (Problem Statement):** ما هو الخلل في عملية التوصيل؟
+- **بيان الهدف (Goal Statement):** ما هو الرقم المستهدف للنجاح؟
+- **النطاق (Scope):** أين تبدأ وتنتهي مسؤوليتنا؟
+- **الفريق (Team):** من هم الأفراد المسؤولون عن التنفيذ؟
+
+---
+
+## 💡 أقسام جوهرية تم تفصيلها
+
+### 1. بيان المشكلة (Problem Statement)
+استخدمنا إطار **IS / IS NOT** لتحديد المشكلة بدقة:
+> تعاني عملية التوصيل للميل الأخير من معدل تأخير يصل إلى **45%** منذ بداية الربع الأول. هذا التأخير ناتج عن **ضعف دقة بيانات العناوين** وفجوة التنسيق في المستودع، مما يؤدي إلى خسارة تشغيلية تقدر بـ **250,000 ريال شهرياً**.
+
+### 2. بيان الهدف (Goal Statement)
+الهدف مصاغ بطريقة **SMART**:
+> تقليل نسبة الطلبات المتأخرة من **45% إلى 20%** بحلول نهاية سبتمبر 2026، مما سينعكس على تقليل تكاليف العمل الإضافي للسائقين بنسبة 15%.
+
+### 3. النطاق (Scope — IS / IS NOT)
+
+| داخل النطاق (In Scope) | خارج النطاق (Out of Scope) |
+|-------------------------|---------------------------|
+| عمليات فرز الشحنات وجدولتها | جودة تصنيع الصناديق (Packaging) |
+| دقة بيانات العناوين (Geocoding) | عمليات الشحن الدولي |
+| نظام توجيه السائقين (Routing) | شراء مركبات جديدة للأسطول |
+
+---
+
+## 🛠️ أفضل الممارسات المتبعة
+
+### ✅ ما نلتزم به
+- **القياس الرقمي:** لا نستخدم كلمات مثل "تحسين" بل نستخدم "تقليل بنسبة 25%".
+- **تحديد المقياس الأساسي (Baseline):** توثيق وضعنا الحالي (45% تأخير) ليكون مرجعاً للمقارنة.
+- **الارتباط المالي:** ربط الفشل التشغيلي بالخسارة المالية المباشرة.
+
+### ❌ ما نتجنبه
+- **حلول مسبقة:** لا نقترح حلولاً تقنية في هذه المرحلة (نحن فقط نعرف المشكلة).
+- **غموض الأدوار:** تم تحديد مسؤولية كل فرد باستخدام مصفوفة RACI.
+
+---
+
+## ⚠️ الأخطاء الشائعة في مشاريع اللوجستيك
+
+| الخطأ | التأثير | الحل في Green Box |
+|-------|---------|--------------------|
+| نطاق واسع جداً | تشتت الفريق وفشل المشروع | التركيز فقط على **الميل الأخير (Last Mile)** |
+| إهمال صوت السائق | مقاومة التغيير عند التطبيق | إشراك السائقين كأصحاب مصلحة رئيسيين |
+| هدف غير قابل للقياس | عدم القدرة على إثبات النجاح | وضع أرقام وتواريخ محددة وصارمة |
+
+---
+
+*هذا العمل جزء من مشروع [Green Box Logistics Optimization](https://github.com/your-username/Green-Box-Project)*
